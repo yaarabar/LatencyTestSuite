@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="benchmark"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\rpclib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yaara/CLionProjects/benchmark"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yaara/CLionProjects/benchmark"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yaara/CLionProjects/benchmark"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchClient">
+				<Option output="/home/yaara/CLionProjects/benchmark/benchClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaara/CLionProjects/benchmark"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRPCLIB_MSGPACK=clmdep_msgpack"/>
+					<Add directory="/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 benchClient"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchClient/fast">
+				<Option output="/home/yaara/CLionProjects/benchmark/benchClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaara/CLionProjects/benchmark"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRPCLIB_MSGPACK=clmdep_msgpack"/>
+					<Add directory="/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 benchClient/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchServer">
+				<Option output="/home/yaara/CLionProjects/benchmark/benchServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaara/CLionProjects/benchmark"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRPCLIB_MSGPACK=clmdep_msgpack"/>
+					<Add directory="/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 benchServer"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="benchServer/fast">
+				<Option output="/home/yaara/CLionProjects/benchmark/benchServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/yaara/CLionProjects/benchmark"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRPCLIB_MSGPACK=clmdep_msgpack"/>
+					<Add directory="/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 benchServer/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/yaara/CLionProjects/benchmark/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/AbstractClient.cpp">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/AbstractClient.h">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/AbstractServer.cpp">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/AbstractServer.h">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/MainClient.cpp">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/MainServer.cpp">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/Massage.cpp">
+			<Option target="benchClient"/>
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/Massage.h">
+			<Option target="benchClient"/>
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/asioClient.cpp">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/asioClient.h">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/asioServer.cpp">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/asioServer.h">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/client.cpp">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/client.h">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/clientFactory.cpp">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/clientFactory.h">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/libuvCLient.cpp">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/libuvCLient.h">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/libuvServer.cpp">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/libuvServer.h">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/rpcClient.cpp">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/rpcClient.h">
+			<Option target="benchClient"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/rpcServer.cpp">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/rpcServer.h">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/server.cpp">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/server.h">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/serverFactory.cpp">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/serverFactory.h">
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/session.cpp">
+			<Option target="benchClient"/>
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/session.h">
+			<Option target="benchClient"/>
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/utilitis.h">
+			<Option target="benchClient"/>
+			<Option target="benchServer"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/../../../../usr/local/lib/cmake/rpclib/rpclibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\rpclib\"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/../../../../usr/local/lib/cmake/rpclib/rpclibConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\rpclib\"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/../../../../usr/local/lib/cmake/rpclib/rpclibTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\rpclib\"/>
+		</Unit>
+		<Unit filename="/home/yaara/CLionProjects/benchmark/../../../../usr/local/lib/cmake/rpclib/rpclibTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\rpclib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
