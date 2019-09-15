@@ -12,7 +12,6 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${FLAGS}")
 find_package(rpclib REQUIRED)
 
 add_executable(benchClient MainClient.cpp
-#        )
         LibuvCLient.cpp LibuvCLient.h AsioClient.cpp AsioClient.h
         AbstractClient.cpp AbstractClient.h Utilitis.h ClientFactory.cpp ClientFactory.h
         RpcClient.cpp RpcClient.h Client.cpp Client.h Massage.cpp Massage.h
@@ -21,7 +20,6 @@ add_executable(benchClient MainClient.cpp
 
 
 add_executable(benchServer MainServer.cpp
-#        )
         LibuvServer.cpp LibuvServer.h AsioServer.cpp AsioServer.h
         AbstractServer.cpp AbstractServer.h ServerFactory.cpp ServerFactory.h
         Utilitis.h RpcServer.cpp RpcServer.h Server.cpp Server.h Massage.cpp Massage.h
